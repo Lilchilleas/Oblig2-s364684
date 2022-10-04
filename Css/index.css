@@ -1,0 +1,137 @@
+ body {
+     margin: 0;
+     background-color: #FBC328;
+     font-family: 'Abyssinica SIL', serif;
+ }
+
+
+
+ .noneMargin {
+     margin: 0;
+ }
+
+ .white {
+     background-color: white;
+ }
+.center{
+    display: flex;
+    justify-content: center;
+}
+ h1 {
+     font-size: 4.5rem;
+     display: inline-block;
+     background-color: white;
+ }
+
+ .up-down-border {
+     border-block: 1.5px solid grey;
+     writing-mode: horizontal-tb;
+     width: 45%;
+     padding: 0rem 1rem;
+ }
+ 
+ .flex {
+     display: flex;
+ }
+
+ .title {
+     font-family: 'Roboto Slab', serif;
+     padding: 1rem 3rem;
+     width: 50%;
+     border-radius: 0 0 0 3rem;
+ }
+ 
+ 
+
+ .img {
+     height: 300px;
+     width: 35%;
+     background-color: grey;
+ }
+
+ .img-squared {
+     height: 300px;
+     width: 300px;
+     background-color: grey;
+ }
+
+ .img-landscape {
+     width: 100%;
+     height: 500px;
+     background-color: grey;
+     display: flex;
+     justify-content: end;
+     align-items: flex-end;
+
+ }
+
+ .img-landscape-text {
+     width: 20%;
+ }
+
+ .small-text {
+     width: 35%;
+   
+ }
+
+ .paragraph {
+     padding: 1.5rem;
+     font-size: 1.5rem;
+ }
+ .side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.5rem;
+
+ }
+
+ .paragraph:nth-child(2) {
+    background-color: #FBC328;
+  
+  }
+.introduction::first-letter{
+    
+    color: #FBC328;
+    font-size: 6rem;
+    line-height: 0.5;
+}
+.yellow-white{
+    color: rebeccapurple;
+    background-color: #FBC328;
+    padding: 1rem;
+}
+
+ .grid-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: auto auto 100px;
+ 
+ }
+
+
+ .head {
+    background-image: url("../Pictures/banner.jpg");
+    background-size: cover;
+    background-position:center ;
+     grid-column: 1/-1;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     padding: 7rem 0 0 0;
+ }
+
+
+ .body {
+     grid-column: 1/-1;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .content-in {
+     display: flex;
+ }
+
+ .footer {
+     grid-column: 1/-1;
+ }

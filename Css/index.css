@@ -13,7 +13,7 @@ body {
 
 /*------------------------------------------------*/
 .top {
-    background-image: url("../Pictures/banner.jpg");
+    background-image: url("../Pictures/banner.jpg");   /*Taken from https://www.nationalgeographic.com/history/article/2020-not-1968 */
     background-size: cover;
     background-position: center;
     grid-column: 1/-1;
@@ -131,7 +131,7 @@ h1 {
     height: 300px;
     width: 35%;
     background-color: grey;
-    background-image: url("../Pictures/pic3.jpg");
+    background-image: url("../Pictures/pic3.jpg"); /*Taken from https://www.independent.co.uk/news/uk/home-news/bbc-licence-fee-decriminalisation-boris-johnson-tv-iplayer-a9247481.html*/
     background-size: cover;
     background-position: center;
 }
@@ -142,7 +142,7 @@ h1 {
     display: flex;
     justify-content: end;
     align-items: flex-end;
-    background-image: url("../Pictures/pic4.jpg");
+    background-image: url("../Pictures/pic4.jpg"); /*Taken from https://en.wikipedia.org/wiki/September_15,_2007,_anti-war_protest#/media/File:Marching_towards_the_Capital_-_September_15,_2007.jpg*/
     background-size: cover;
     background-position: center;
 }
@@ -150,7 +150,7 @@ h1 {
     width: 20%;
 }
 .banner-img {
-    background-image: url("../Pictures/banner2.jpg");
+    background-image: url("../Pictures/banner2.jpg"); /*Taken from https://news.sky.com/story/extinction-rebellion-bbc-staff-unable-to-get-in-or-out-as-climate-protesters-block-hq-11832769*/
 }
 .side {
     display: flex;
@@ -164,11 +164,11 @@ h1 {
     background-color: grey;
 }
 .a{
-    background-image: url("../Pictures/pic2.jpg");
+    background-image: url("../Pictures/pic2.jpg"); /*Taken from the BBC History Magazine November 2022 page 71*/
     background-size: cover;
 }
 .b {
-    background-image: url("../Pictures/pic1.jpg");
+    background-image: url("../Pictures/pic1.jpg"); /*Taken from the BBC History Magazine November 2022 page 71*/
     background-size: cover;
 }
 .button-container{
